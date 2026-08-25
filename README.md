@@ -4,6 +4,14 @@ Java backend pet-project, который я развиваю в рамках с�
 
 Цель проекта — последовательно пройти путь от базового Spring Boot-приложения к более полноценному backend-сервису и на практике разбирать архитектуру приложения, работу с данными и API.
 
+## Status
+
+Work in progress — project evolves as I progress through a Java backend bootcamp.
+
+## Current focus
+
+Persistence, API design, validation, error handling, application layering.
+
 ## What is implemented
 
 - REST API for user management
