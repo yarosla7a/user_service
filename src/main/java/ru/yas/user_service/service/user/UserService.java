@@ -24,7 +24,7 @@ public interface UserService {
      * @param userDto new user data
      * @return updated user data without password
      */
-    UserDto update(long userId, UpdateUserDto userDto);
+    UserDto update(Long userId, UpdateUserDto userDto);
 
     /**
      * Returns user profile by id.

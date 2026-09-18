@@ -50,7 +50,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public UserDto update(long userId, UpdateUserDto userDto) {
+    public UserDto update(Long userId, UpdateUserDto userDto) {
         log.info("Updating user with id: {}", userId);
 
         Long currentUserId = userContext.getUserId();
